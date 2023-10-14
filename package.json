@@ -1,0 +1,17 @@
+{
+  "name": "testcafe_testdive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./tests/registering.js --skip-js-errors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^3.3.0"
+  },
+  "dependencies": {
+    "prettier": "^3.0.3"
+  }
+}

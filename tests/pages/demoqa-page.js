@@ -140,12 +140,9 @@ class DemoqaPage {
                 break;
             }
         }
-        
-
+   
         await t.click(Selector('*[id="dateOfBirth"]').find('div').withAttribute('class', 'react-datepicker__month')
         .find('div').withAttribute('role', 'option').withText(day));
-
-
     }
 
     async fillSubjectInput(subjects) {
